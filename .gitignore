@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+*.whl
+
+# Virtual environments
+.venv/
+venv/
+env/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb~
+
+# Model checkpoints & artefacts (large binaries — use Git LFS or DVC)
+Hallucination_Model/
+*.bin
+*.safetensors
+*.ckpt
+*.pt
+*.pth
+checkpoint-*/
+
+# Datasets (large — store externally)
+RAGTruth-main/
+*.jsonl
+*.zip
+
+# Results
+results/
+*.log
+
+# macOS
+.DS_Store
+
+# IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Misc
+*.swp
+*.swo
+~$*
